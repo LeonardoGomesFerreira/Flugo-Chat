@@ -13,7 +13,6 @@
   <img src="https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter" />
   <img src="https://img.shields.io/badge/Firebase-Realtime%20DB-FFCA28?logo=firebase" />
   <img src="https://img.shields.io/badge/Platform-Android-3DDC84?logo=android" />
-  <img src="https://img.shields.io/badge/Status-Em%20desenvolvimento-yellow" />
 </p>
 
 ---
