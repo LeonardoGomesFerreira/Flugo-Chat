@@ -1,0 +1,70 @@
+# ==============================
+# Misc
+# ==============================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ==============================
+# IntelliJ / Android Studio
+# ==============================
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code (descomente se NÃO quiser subir configs)
+#.vscode/
+
+# ==============================
+# Flutter / Dart
+# ==============================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# ==============================
+# Android
+# ==============================
+android/.gradle/
+android/app/build/
+android/local.properties
+android/key.properties
+
+# APK / AAB (NÃO subir builds)
+*.apk
+*.aab
+
+# ==============================
+# iOS
+# ==============================
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/.last_build_id
+
+# ==============================
+# Firebase (MUUUUITO IMPORTANTE)
+# ==============================
+google-services.json
+GoogleService-Info.plist
+
+# ==============================
+# Obfuscation / Symbols
+# ==============================
+app.*.symbols
+app.*.map.json

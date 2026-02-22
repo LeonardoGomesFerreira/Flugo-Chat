@@ -1,0 +1,62 @@
+name: flugo_chat
+description: "Flugo Chat — comunicação em tempo real para a equipe."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^4.4.0
+  firebase_auth: ^6.1.4
+  firebase_database: ^12.1.3
+  firebase_storage: ^13.0.6     # ← upload de foto de perfil
+
+  # Utils
+  intl: ^0.20.2
+  timeago: ^3.6.1
+
+  # UI/UX
+  google_fonts: ^8.0.2
+  flutter_svg: ^2.2.3
+  flutter_animate: ^4.5.2
+  animations: ^2.1.1
+
+  # Formulários
+  flutter_form_builder: ^10.3.0+2
+  form_builder_validators: ^11.3.0
+
+  # Notificações
+  flutter_local_notifications: ^18.0.0
+
+  # Seletor de imagem (foto de perfil)
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/flugo-logo.svg
+    - assets/flugo-logo.png
+    - assets/flugo-tranparente.svg
+    - assets/flugo-tranparente.png
+    - assets/favicon-16.png
+    - assets/favicon-32.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/flugo-logo.png"
+  min_sdk_android: 21
+  
